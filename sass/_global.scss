@@ -1,0 +1,42 @@
+@use "components";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+    max-width: 7rem;
+}
+
+.sec-home {
+    display: flex;
+    width: 100%;
+    padding:  5rem;
+    align-items: center;
+
+    .home-cta {
+        flex: 1;
+
+        .cta-text {
+            color: components.$color-main;
+        }
+        .home-title {
+            width: 20rem;
+            font-size: 3rem;
+        }
+    }
+
+    img {
+        width: 500px;
+    }
+}
