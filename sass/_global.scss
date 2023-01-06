@@ -112,3 +112,40 @@
     }
     
 }
+
+.sec-kpis {
+    width: 100%;
+    background-color: components.$color-main;
+    color: #fff;
+    padding: 4rem;
+    .kpi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .number {
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+        .desc {
+            font-size: 0.9rem;
+            color: #ffffffaa;
+        }
+    }
+}
+
+.sec-onboarding {
+    @extend .sec-features, .intro;
+
+    .steps {
+        display: flex;
+        padding: 0 7rem 5rem 7rem;
+        align-items: center;
+        justify-content: center;
+
+        .step-separator {
+            flex: 1;
+            border-top: 2px solid #ddd;
+            margin: 0 1rem;
+        }
+    }
+}
