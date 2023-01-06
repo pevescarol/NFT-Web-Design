@@ -1,5 +1,5 @@
 .btn-main, .btn-main-s {
-  padding: 0.25rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 0.25rem;
   background-color: #0075FF;
   color: #fff;
@@ -15,7 +15,7 @@
 }
 
 .btn-sec, .btn-sec-s {
-  padding: 0.25rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 0.25rem;
   color: #000;
   background-color: transparent;
@@ -227,6 +227,23 @@
   flex: 1;
   border-top: 2px solid #ddd;
   margin: 0 1rem;
+}
+
+.sec-footer-cta {
+  background-color: #f4f8fe;
+  padding: 10rem;
+  background-image: url("../assets/img/bg-footer.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.sec-footer-cta .footer-cta {
+  width: 40%;
+}
+.sec-footer-cta .footer-cta .cta-title {
+  font-size: 2rem;
+}
+.sec-footer-cta .footer-cta .cta-description {
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

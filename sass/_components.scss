@@ -1,5 +1,5 @@
 @mixin btn-base {
-    padding: 0.25rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 0.25rem;
 }
 @mixin btn-sm-modify {
@@ -9,6 +9,7 @@
 
 $color-main: #0075FF;
 $color-sec: #5b617c;
+$color-footer: #f4f8fe;
 
 .btn-main {
     @include btn-base();
