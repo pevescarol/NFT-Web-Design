@@ -246,4 +246,30 @@
   font-size: 1rem;
 }
 
+@media (max-width: 768px) {
+  .sec-onboarding .steps {
+    flex-direction: column;
+  }
+  .sec-onboarding .steps .icon-desc .title {
+    text-align: center;
+  }
+  .sec-footer-cta {
+    background-image: none;
+    padding: 5rem;
+  }
+  .sec-footer-cta .footer-cta {
+    width: 100%;
+    text-align: center;
+  }
+  .sec-benefits .intro, .sec-benefits .sec-benefits, .sec-benefits .sec-onboarding {
+    text-align: center;
+  }
+  .sec-benefits .intro h3, .sec-benefits .sec-benefits h3, .sec-benefits .sec-onboarding h3 {
+    font-size: 2rem;
+  }
+  .sec-features .intro h3, .sec-benefits .intro h3, .sec-onboarding .intro h3, .sec-features .sec-benefits h3, .sec-benefits .sec-benefits h3, .sec-onboarding .sec-benefits h3, .sec-features .sec-onboarding h3, .sec-benefits .sec-onboarding h3, .sec-onboarding .sec-onboarding h3 {
+    font-size: 2rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
